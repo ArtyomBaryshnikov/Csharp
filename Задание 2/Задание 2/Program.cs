@@ -2,3 +2,5 @@
 int a = int.Parse(Console.ReadLine());
 Console.Write("Введите 2 число");
 int b = int.Parse(Console.ReadLine());
+int p = a * b;
+Console.WriteLine($"Произведение чисел равно = {p}");
